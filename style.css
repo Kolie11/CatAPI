@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-family: "poppins", sans-serif;
+margin-top: 150px;
+background-color: #E59F71;
+}
+
+.catCard{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+   
+}
+
+.catCard h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+.catCard h3{
+    margin-top: 5px;
+background-color: #69DC9E;
+padding: 10px;
+color: #0C0C0C;
+text-align: center;
+font-weight: 400;
+font-size: 1.2rem;
+border-radius: 15px;
+
+}
+.catCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 1px 5px 5px black;
+}
+
+q{
+    float: right;
+    font-size: 1.3rem;
+}
+
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
